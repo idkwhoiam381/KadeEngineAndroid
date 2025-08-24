@@ -22,15 +22,25 @@ class OutdatedSubState extends MusicBeatState
 		super.create();
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('gayblack', 'shared'));
 		bg.screenCenter();
-		bg.setGraphicSize(Std.int(bg.width * 1.157));
+		bg.setGraphicSize(Std.int(bg.width * 1.137));
 		add(bg);
 		
 		var txt:FlxText = new FlxText(0, 0, FlxG.width,
 			"Obrigada por instalar meu port!\n"
-			+ "Esse port foi feito por muito carinho\n"
-			+ "Espero que você goste disso kk\nProvavel que nao.\n"
-			+ "para continuar, clique na tela!\n"
-			+ "Nao, eu nao vou portar outras versoes!",
+			+ "Esse port foi feito com muito carinho!\n"
+			+ "Espero que você goste disso kkkk\nProvavel que nao.\n"
+			+ "Fique com os creditos de qualquer maneira\n"
+			+ "Port by GaboWuz\n"
+			+ "Controles by Idklool\n"
+			+ "Suporte Mp4 by FNF-BR\n"
+			+ "Para continuar e sair dessa tela, clique na tela!\n"
+			+ "..\n"
+			+ "...\n"
+			+ "..\n"
+			+ "...\n"
+			+ "..\n"
+			+ "...\n"
+			+ "Nao, eu nao vou portar outras versoes da kade engine.",
 			32);
 		
 		txt.setFormat("VCR OSD Mono", 32, FlxColor.fromRGB(200, 200, 200), CENTER);
