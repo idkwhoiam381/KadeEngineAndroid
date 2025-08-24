@@ -111,8 +111,8 @@ class PauseSubState extends MusicBeatSubstate
 
 		if (gamepad != null && KeyBinds.gamepad)
 		{
-			upP = gamepad.justPressed.DPAD_UP;
-			downP = gamepad.justPressed.DPAD_DOWN;
+			upP = controls.UP_P;
+			downP = controls.DOWN_P;
 			leftP = gamepad.justPressed.DPAD_LEFT;
 			rightP = gamepad.justPressed.DPAD_RIGHT;
 		}
