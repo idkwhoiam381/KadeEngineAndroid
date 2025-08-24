@@ -13,6 +13,8 @@ import lime.app.Application;
 class OutdatedSubState extends MusicBeatState
 {
 	public static var leftState:Bool = false;
+	public static var needVer:String = "IDFK LOL";
+	public static var currChanges:String = "dk";
 	private var colorRotation:Int = 1;
 
 	override function create()
