@@ -20,6 +20,7 @@ class OutdatedSubState extends MusicBeatState
 		super.create();
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('gayblack', 'shared'));
 		bg.screenCenter();
+		bg.setGraphicSize(Std.int(bg.width * 1.157));
 		add(bg);
 		
 		var txt:FlxText = new FlxText(0, 0, FlxG.width,
